@@ -1,0 +1,141 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Savory Spot</title>
+   <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+     }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #4e126a; /* Light orange on hover */
+}
+
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #b11f80;
+}
+
+.menu-list {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.menu-list li {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+}
+
+.menu-list img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.menu-list li p {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Our Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="administrative.html">Administrative</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Food Items</h2>
+        <ul class="menu-list">
+            <li><img src="Aloo-Gobi.jpg" alt="Food Item 1">Aloo-Gobi  - Rs 175</li>
+            <li><img src="Butter chicken.jpg" alt="Food Item 2">Butter chicken - Rs 300</li>
+            <li><img src="Chicken Kofta pulao.jpg" alt="Food Item 3">Chicken kofta Pulao - Rs 400</li>
+            <li><img src="Chicken-Tikka.jpg" alt="Food Item 4">Chicken-Tikka - Rs 240</li>
+            <li><img src="Falooda.jpg" alt="Food Item 5">Falooda - Rs 140</li>
+            <li><img src="Ice cream.jpg" alt="Food Item 6">Ice Cream - Rs 50</li>
+            <li><img src="Masala-Dosa.jpg" alt="Food Item 7">Masala-Dosa - Rs 60</li>
+            <li><img src="Missi rotti.jpg" alt="Food Item 8">Misssi Rotti - Rs 70</li>
+            <li><img src="Pani Puri.jpg" alt="Food Item 9">Pani Puri - Rs 40</li>
+            <li><img src="Samosa.jpg" alt="Food Item 10">Samosa - Rs 60</li>
+            <li><img src="South-Meals.jpg" alt="Food Item 11">South Meals - Rs 120</li>
+            <li><img src="Tandoor chicken.jpg" alt="Food Item 12">Tandoori Chicken - Rs 240</li>
+
+        </ul>
+    </main>
+    <footer>
+        <p>Designed By : ATCHAYA B</p>
+    </footer>
+</body>
+</html>
