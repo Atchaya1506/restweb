@@ -523,14 +523,10 @@ contact.html
   ```
 
 ## OUTPUT:
-
-![Screenshot 2024-12-13 184720](https://github.com/user-attachments/assets/79e5c1fe-ca55-4424-97be-627ef2ce7a35)
-![Screenshot 2024-12-13 184735](https://github.com/user-attachments/assets/44158690-b211-44d1-a104-3fd40e129e8c)
-![Screenshot 2024-12-13 184753](https://github.com/user-attachments/assets/4ecf0286-dde6-451c-a60e-92a182730d7e)
-![Screenshot 2024-12-13 184805](https://github.com/user-attachments/assets/765f6a31-5b59-47fd-9ac3-d57007cfcbfb)
-
-
-
+![alt text](<Screenshot 2024-12-13 184720.png>)
+![alt text](<Screenshot 2024-12-13 184735.png>)
+![alt text](<Screenshot 2024-12-13 184753.png>)
+![alt text](<Screenshot 2024-12-13 184805.png>)
 
 
 ## RESULT:
